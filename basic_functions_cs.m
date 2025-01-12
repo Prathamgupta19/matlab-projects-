@@ -1,0 +1,42 @@
+close all ; 
+t = -10 : 0.001 : 10;
+step = t>0;
+ramp = t.*step;
+signum = 2.*step-1 ;
+sine = sin(t);
+cosine = cos(t);
+y = pi.*t;
+sinc = sin(y)./y;
+subplot(3,2,1);
+plot(t,step);
+title('step function');
+xlabel('time');
+ylabel('amplitude');
+subplot(3,2,2);
+plot(t,ramp);
+title('ramp function');
+xlabel('time');
+ylabel('amplitude');
+subplot(3,2,3);
+plot(t,signum);
+title('signum function');
+xlabel('time');
+ylabel('amplitude');
+subplot(3,2,4);
+plot(t,sine);
+title('sine function');
+xlabel('time');
+ylabel('amplitude');
+subplot(3,2,5);
+plot(t,cosine);
+title('cosine function');
+xlabel('time');
+ylabel('amplitude');
+subplot(3,2,6);
+plot(t,sinc);
+
+title('sinc function');
+xlabel('time');
+ylabel('amplitude');
+
+

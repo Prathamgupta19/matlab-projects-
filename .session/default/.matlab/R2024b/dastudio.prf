@@ -1,0 +1,32 @@
+#
+#DAStudio Preference File
+#
+
+
+[DAStudio DDG]
+DDGFontSize=10
+
+[GLUEEditorPreferences]
+FirstTimeScrollNotification=0
+SuggestQuickInsertNotification=0
+
+[General]
+MatlabRelease=2024a
+
+[LibraryBrowser2]
+LBRecentName0=simulink/Sinks/To Workspace
+LBRecentName1=simulink/Commonly Used Blocks/Scope
+LBRecentName2=simulink/Commonly Used Blocks/Product
+LBRecentName3=simulink/Sources/Pulse Generator
+LBRecentName4=simulink/Sources/Sine Wave
+LBRecentName5=simulink/Math Operations/Sine Wave Function
+LBScaleFactor=1.125
+LBSearchHistory=sine,workspace,simout,scope,product,pulse,sine wave,
+LBSearch_MatchCase=0
+LBSearch_MatchWholeWord=0
+LBSearch_UseRegExp=0
+LBSortStyle=0
+LBTreePopupHeight=500
+LBTreePopupWidth=250
+LBUseCache=1
+
